@@ -90,9 +90,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "wyklad1"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Tył}}",
@@ -114,7 +112,7 @@
             "__type__": "Note",
             "fields": [
                 "Podaj definicję&nbsp;<b>inżynierii oprogramowania</b>",
-                "systematyczne projektowanie i rozwój oprogramowania oraz zarządzanie procesem wytwarzania oprogramowania"
+                "Systematyczne projektowanie i rozwój oprogramowania oraz zarządzanie procesem wytwarzania oprogramowania."
             ],
             "guid": "Ep%#<Ii)_c",
             "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
@@ -129,18 +127,6 @@
                 "Nauka o używaniu <i>metody naukowej</i>&nbsp;do projektowania i budowania maszyn, struktur budowlanych i innych rzeczy"
             ],
             "guid": "y?ABPdqR76",
-            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
-            "tags": [
-                "wyklad1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Podaj definicję <b>metody naukowej</b>",
-                "Metoda naukowe to <b>empiryczna metoda</b>&nbsp;zdobywania wiedzy charakteryzująca sposób rozwoju nauki od około 17 wieku.<div><br></div><div>Składa się z etapów obserwacji i sceptycznej analizy obserwacji.&nbsp;</div><div><br></div><div>Etapy: obserwacja, sformułowanie hipotezy, eksperymentalne weryfikowanie następstw hipotezy, uszczegółowienie lub odrzucenie hipotezy.</div>"
-            ],
-            "guid": "Djs4CP/[bj",
             "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
             "tags": [
                 "wyklad1"
@@ -330,7 +316,7 @@
             "__type__": "Note",
             "fields": [
                 "Na co zwracać uwagę przy priorytetach w backlogu?",
-                "1. wartość biznesowa<div>2. zależności między taskami (najpierw baza, potem interfejs do wyświetlania danych)</div><div>3. ryzyko (co może pójść źle jeżeli nie zrobimy tego szybko?)</div>"
+                "1. wartość biznesowa<div>2. zależności między taskami (np. najpierw baza, potem interfejs do wyświetlania danych)</div><div>3. ryzyko (co może pójść źle jeżeli nie zrobimy tego szybko?)</div>"
             ],
             "guid": "dfQ+p1<0LC",
             "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
