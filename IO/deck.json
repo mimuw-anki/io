@@ -1,0 +1,340 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "bdceba20-7c66-11eb-9311-648099ca582d",
+    "deck_config_uuid": "a2dc5f74-7c66-11eb-9311-648099ca582d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "a2dc5f74-7c66-11eb-9311-648099ca582d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 45,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    2.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 250
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 800
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "IO",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Przód",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Tył",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "INF",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Tył}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karta 1",
+                    "ord": 0,
+                    "qfmt": "{{Przód}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję&nbsp;<b>inżynierii oprogramowania</b>",
+                "Systematyczne projektowanie i rozwój oprogramowania oraz zarządzanie procesem wytwarzania oprogramowania."
+            ],
+            "guid": "Ep%#<Ii)_c",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję <b>inżynierii</b>",
+                "Nauka o używaniu <i>metody naukowej</i>&nbsp;do projektowania i budowania maszyn, struktur budowlanych i innych rzeczy"
+            ],
+            "guid": "y?ABPdqR76",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję <b>procesu wytwórczego </b>(software process)",
+                "Sekwencja akcji podejmowanych w czasie życia projektu informatycznego"
+            ],
+            "guid": "Le`(IQpP+;",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co wchodzi w skład <b>procesu wytwórczego?</b>",
+                "1. ustalenie wymagań<div>2. projektowanie i implementacja</div><div>3. zatwierdzenie</div><div>4. dalsza ewolucja oprogramowania</div>"
+            ],
+            "guid": "xY:{&JB?rt",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj podstawowe sposoby na <b>usprawnenie komunikacji</b>",
+                "1. ujednolicenie języka&nbsp;<div>2. tworzenie specjalnych formalizmów do opisywania różnych rzeczy (UML)</div><div>3. standardowe szablony rozwiązań (wzorce projektowe)</div><div><br></div>"
+            ],
+            "guid": "r7AuvEZ>9K",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję <b>sprintu </b>(iteracji)",
+                "Okres w którym zawiera się jeden cykl wytwarzania oprogramowania."
+            ],
+            "guid": "Aar4Hq0gpj",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak długo powinien trwać <b>sprint</b>?",
+                "Małe kilka tygodni, typowo 2 tygodnie"
+            ],
+            "guid": "ct3p{&KsuG",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj 2 główne koncepcje składające się na&nbsp;<b>sprint</b>",
+                "Cel (scope) i ograniczenie czasowe (deadline)"
+            ],
+            "guid": "hX?v3xQs+Y",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co zawiera dokumet <b>wizja</b>?",
+                "Definicję ogólnego zakresu i celu programu, produktu lub projektu (jasne sformułowanie problemu, propozycję rozwiązania i składniki wysokiego poziomu).&nbsp;"
+            ],
+            "guid": "PP$Hcum(dR",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jakie korzyści daje przygotowanie <b>wizji</b>?",
+                "Pomagają określić oczekiwania i okraniczyć ryzyko.<div><br></div><div>Informatykom pomaga zrozumieć na czym koncentrować się w rozmowach z klientem.</div>"
+            ],
+            "guid": "t];->~QXl^",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co to jest <b>mini-wizja</b>?",
+                "Cos co w kilku zdaniach opisuje projekt. Powinno dać się opowiedzieć w 30 sekund."
+            ],
+            "guid": "p50GBNq^EV",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj schemat <b>mini-wizji</b>",
+                "<div>Dla... (docelowy <b>klient</b>)<br></div><div>który ma <b>potrzebę</b>... (opis)</div><div>tworzymy system o <b>nazwie</b> (nazwa).</div><div><br></div><div>System ten jest produktem z grupy (np. oprogramowanie finansowe, social-media, logistyczne itp.)</div><div>który (opis głównych cech).</div><div><br></div><div>W przeciwieństwie do (opis konkurencji)</div><div>pozwala na (opis różnic).</div>"
+            ],
+            "guid": "Nd2!5})!Y]",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Czym jest <b>backlog</b>?",
+                "Uporządkowaną listą rzeczy do zrobienia."
+            ],
+            "guid": "q~fo#$7{XH",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Części składowe elementu backlogu:&nbsp;",
+                "1. nazwa/opis<div>2. czasochłonność</div><div>3. priorytet</div><div>4. kryteria akceptacji/definition of done</div>"
+            ],
+            "guid": "i%fhdv:VkR",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co trafia do backlogu?",
+                "1. funkcjonalności do zrealizowania<div>2. modyfikacje ustalone z klientem</div><div>3. błędy i poprawki techniczne</div><div>4. research taski i pozyskiwanie wiedzy</div>"
+            ],
+            "guid": "NN7:Sm+y_x",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak powstaje backlog?",
+                "Zespół siada i tworzy listę elementów które powinny znaleźć się w projekcie, np. w czasie burzy mózgów"
+            ],
+            "guid": "drY=an3w1{",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak kwantyfikować czasochłonność elementów backlogu?",
+                "Używając punktów funkcyjnych/story points bez przypisanej jednostki, ale pozwalających porównywać relatywną trudność zadań"
+            ],
+            "guid": "Nrt?Ui88G2",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Na co zwracać uwagę przy priorytetach w backlogu?",
+                "1. wartość biznesowa<div>2. zależności między taskami (np. najpierw baza, potem interfejs do wyświetlania danych)</div><div>3. ryzyko (co może pójść źle jeżeli nie zrobimy tego szybko?)</div>"
+            ],
+            "guid": "dfQ+p1<0LC",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak określać wymagania/DoD dla elementów backlogu?",
+                "Wymagania funkcjonalne: opis jak ma się zachować dla określonych danych, jak ma się nie zachować<div><br></div><div>Wymagania niefunkcjonalne: wymogi dla funkcjonalności; przeważnie dotyczą całego systemu np. testowalność, bezpieczeństwo, szybkość. Powinny istnieć miary do ich weryfikowania (np. ile sekund może zajmować startup programu)</div>"
+            ],
+            "guid": "r;WBlRk#p?",
+            "note_model_uuid": "a2dd1c7a-7c66-11eb-9311-648099ca582d",
+            "tags": [
+                "wyklad1"
+            ]
+        }
+    ]
+}
