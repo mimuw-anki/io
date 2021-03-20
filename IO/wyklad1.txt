@@ -1,0 +1,79 @@
+deck_id: 1109857409
+deck_name: Inżynieria oprogramowania MIMUW
+file_id: wyklad-1
+
+1
+Podaj definicję inżynierii oprogramowania
+Systematyczne projektowanie i rozwój oprogramowania oraz zarządzanie procesem wytwarzania oprogramowania.
+
+2
+Podaj definicję inżynierii
+Nauka o używaniu metody naukowej do projektowania i budowania maszyn, struktur budowlanych i innych rzeczy
+
+3
+Podaj definicję procesu wytwórczego (software process)
+Sekwencja akcji podejmowanych w czasie życia projektu informatycznego
+
+4
+Co wchodzi w skład procesu wytwórczego?
+1. ustalenie wymagań <br>2. projektowanie i implementacja <br>3. zatwierdzenie <br>4. dalsza ewolucja oprogramowania
+
+5
+Podaj podstawowe sposoby na usprawnenie komunikacji
+1. ujednolicenie języka 2. tworzenie specjalnych formalizmów do opisywania różnych rzeczy (UML) <br>3. standardowe szablony rozwiązań (wzorce projektowe)
+
+6
+Podaj definicję sprintu (iteracji)
+Okres w którym zawiera się jeden cykl wytwarzania oprogramowania.
+
+7
+Jak długo powinien trwać sprint?
+Małe kilka tygodni, typowo 2 tygodnie
+
+8
+Podaj 2 główne koncepcje składające się na sprint
+Cel (scope) i ograniczenie czasowe (deadline)
+
+9
+Co zawiera dokumet wizja?
+Definicję ogólnego zakresu i celu programu, produktu lub projektu (jasne sformułowanie problemu, propozycję rozwiązania i składniki wysokiego poziomu). 
+
+10
+Jakie korzyści daje przygotowanie wizji?
+Pomagają określić oczekiwania i okraniczyć ryzyko.<br>Informatykom pomaga zrozumieć na czym koncentrować się w rozmowach z klientem. <br>
+
+11
+Co to jest mini-wizja?
+Cos co w kilku zdaniach opisuje projekt. Powinno dać się opowiedzieć w 30 sekund.
+
+12
+Podaj schemat mini-wizji
+Dla... (docelowy klient) <br>który ma potrzebę... (opis) <br>tworzymy system o nazwie (nazwa). <br>System ten jest produktem z grupy (np. oprogramowanie finansowe, social-media, logistyczne itp.) <br>który (opis głównych cech). <br><br>W przeciwieństwie do (opis konkurencji) <br>pozwala na (opis różnic).
+
+13
+Czym jest backlog?
+Uporządkowaną listą rzeczy do zrobienia.
+
+14
+Części składowe elementu backlogu: 
+1. nazwa/opis <br>2. czasochłonność <br>3. priorytet <br>4. kryteria akceptacji/definition of done
+
+15
+Co trafia do backlogu?
+1. funkcjonalności do zrealizowania <br>2. modyfikacje ustalone z klientem <br>3. błędy i poprawki techniczne <br>4. research taski i pozyskiwanie wiedzy
+
+16
+Jak powstaje backlog?
+Zespół siada i tworzy listę elementów które powinny znaleźć się w projekcie, np. w czasie burzy mózgów
+
+17
+Jak kwantyfikować czasochłonność elementów backlogu?
+Używając punktów funkcyjnych/story points bez przypisanej jednostki, ale pozwalających porównywać relatywną trudność zadań
+
+18
+Na co zwracać uwagę przy priorytetach w backlogu?
+1. wartość biznesowa <br>2. zależności między taskami (np. najpierw baza, potem interfejs do wyświetlania danych) <br>3. ryzyko (co może pójść źle jeżeli nie zrobimy tego szybko?)
+
+19
+Jak określać wymagania/DoD dla elementów backlogu?
+Wymagania funkcjonalne: opis jak ma się zachować dla określonych danych, jak ma się nie zachować<br>Wymagania niefunkcjonalne: wymogi dla funkcjonalności; przeważnie dotyczą całego systemu np. testowalność, bezpieczeństwo, szybkość. Powinny istnieć miary do ich weryfikowania (np. ile sekund może zajmować startup programu)
