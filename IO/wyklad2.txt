@@ -1,0 +1,11 @@
+deck_id: 1109857409
+deck_name: Inżynieria oprogramowania MIMUW
+file_id: wyklad-2
+
+1
+Czym jest podejście inkrementacyjne?
+To dzielenie projektów na kilka kawałków i dla każdego realizowanie jakiegoś procesu wytwórczego, np. kaskadowego.
+
+2
+Czym jest podejście iteracyjne?
+To tworzenie kolejnych wersji projektu, które coraz bardziej odpowiadają życzeniom klienta.
