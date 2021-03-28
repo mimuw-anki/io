@@ -4,7 +4,7 @@ file_id: wyklad-2
 
 1
 Czym jest podejście inkrementacyjne?
-To dzielenie projektów na kilka kawałków i dla każdego dealizowanie jakiegoś procesu wytwórczego, np. kaskadowego.
+To dzielenie projektów na kilka kawałków i dla każdego realizowanie jakiegoś procesu wytwórczego, np. kaskadowego.
 
 2
 Czym jest podejście iteracyjne?

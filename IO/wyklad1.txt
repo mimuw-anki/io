@@ -35,7 +35,7 @@ Podaj 2 główne koncepcje składające się na sprint
 Cel (scope) i ograniczenie czasowe (deadline)
 
 9
-Co zawiera dokumet wizja?
+Co zawiera dokument wizja?
 Definicję ogólnego zakresu i celu programu, produktu lub projektu (jasne sformułowanie problemu, propozycję rozwiązania i składniki wysokiego poziomu). 
 
 10
@@ -44,7 +44,7 @@ Pomagają określić oczekiwania i okraniczyć ryzyko.<br>Informatykom pomaga zr
 
 11
 Co to jest mini-wizja?
-Cos co w kilku zdaniach opisuje projekt. Powinno dać się opowiedzieć w 30 sekund.
+Coś co w kilku zdaniach opisuje projekt. Powinno dać się opowiedzieć w 30 sekund.
 
 12
 Podaj schemat mini-wizji
