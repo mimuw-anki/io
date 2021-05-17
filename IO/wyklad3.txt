@@ -7,9 +7,9 @@ Na czym polega metoda MoSCoW?
 Na podziale na 4 kategorie w celu uzyskania Minimum Viable Product: Must Have, Should Have, Could Have, Won't have
 
 2
-Jakie znasz metody planowania backlogu?
+Jakie są metody planowania backlogu?
 MoSCoW, Value-Complexity Matrix, Value-Based Prioritization
 
 3
-Jakie znasz miary wartości bizenesowej?
+Jakie są miary wartości bizenesowej?
 Net Promoter Score, przychody/klient, powracanie klientów, zmniejszenie kosztup posiadania, zwiększenie liczby uzytkowników/klientów.
