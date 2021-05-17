@@ -9,3 +9,27 @@ To dzielenie projektów na kilka kawałków i dla każdego realizowanie jakiego�
 2
 Czym jest podejście iteracyjne?
 To tworzenie kolejnych wersji projektu, które coraz bardziej odpowiadają życzeniom klienta.
+
+3
+Na czym polega model kaskadowy?
+Polega on na wykonywaniu podstawowych czynności (Planowanie, Analiza, Projekt, Implementacja, Testowanie, Wdrożenie) jako odrębnych faz projektowych, kolejno po sobie.
+
+4
+Jakie są wady modelu kaskadowego?
+Niestała specyfikacja, a więc bałagan w dokumentacji; Odraczanie testów; Różne osoby zajmują się różnymi elementami, więc nie mogą pracować jednocześnie.
+
+5
+Jakie są wady podejścia inkrementacyjnego?
+Wizja musi być jasna, a zły projekt jednej inkrementacji ma wpływ na całą resztę.
+
+6
+Jakie są wady podejścai iteracyjnego?
+Nie nadaje sie do modyfikowania istniejącego opgrogramowania; Pisanie wiele razy tego samego; Trudno przewidzieć datę końca.
+
+7
+Czym jest programowanie zwinne(agile)?
+Grupa metod wytwarzania oprogramowania opartego na programowaniu iteracyjno-przyrostowym - alternatywa metod kaskadowych(waterfall). Powstałe wokół obserwacji zmienności wymagań klienta.
+
+8
+Jakie etapy agile są wyróżnianie?
+Plan-Design-Debelop-Test-Release-Feedback (występujące w cyklu)

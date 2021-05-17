@@ -1,0 +1,15 @@
+deck_id: 1109857409
+deck_name: Inżynieria oprogramowania MIMUW
+file_id: wyklad-5
+
+1
+Do czego służy "historia użytkownika"?
+Jest to krótka notatka o funkcjonalności pomocna w tworzeniu backlogu.
+
+2
+Jakie są cechy dobrej "historii użytkownika"?
+INVEST -- Independent, Negotiable, Valuable, Estimable, Small, Testable
+
+3
+Czym jest Spike?
+Historią użytkownika stworzoną w celu napisania prototypu. Przy pisaniu jej warto mieć dobrze określone ramy.

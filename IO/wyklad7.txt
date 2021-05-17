@@ -1,0 +1,55 @@
+deck_id: 1109857409
+deck_name: Inżynieria oprogramowania MIMUW
+file_id: wyklad-7
+
+1
+Czym jest awaria (failure)?
+Zachowaniem systemu nie zgodnym ze specyfikacją.
+
+2
+Czym jest usterka (fault)?
+Elementem kodu powodującym awarię.
+
+3
+Czym jest błąd (error)?
+Błędem człowieka, prowadzącym do powstania usterki.
+
+4
+Czym są testy white-box?
+Testy pisane w oparciu o implementację.
+
+5
+Czym są testy black-box?
+Testy powstajace jedynie w oparciu o specyfikację.
+
+6
+Jakie są cechy testów typu black-box?
+Mogą powstawać nawet przed implementacją; Wspierają proces tworzenia samej specyfikacji; Nie wymagają znajomości oprogramowania.
+
+7
+Jakie są cechy testów typu white-box?
+Łatwiejsze od black-box w automatyzacji; Pozwalają na testowanie mniejszych fragmentów kodu; Pozwalają wykrywać błędy wcześnie.
+
+8
+Jakie są poziomy testów?
+Testy jednostkowe < Testy integracyjne < Testy systemowe < Testy akceptacyjne.
+
+9
+Czym jest i na czym polega The Category-Partition Method?
+Metodą realizacji testów typu black-box. Polega na podziale wejść na podzbiory, o wewnętrznie podobnych właściwościach, i tworzeniu  testów dla pojedynczych elementów z każdego podzbioru.
+
+10
+Czym jest code coverage?
+Miarą jakości testów white-box, bada procent linii kodu odwiedzonych w czasiw wykonywania testów.
+
+11
+Czym jest control flow graph?
+Jest to skierowany graf, którego wierzchołkami są bloki programu(wejście, ciąg operacji, wyjście), a kawędzie obrazują przejścia między nimi.
+
+12
+Czym jest czysta ścieżka dla zmiennej x?
+Ścieżka w grafie sterowania(control flow graph) zaczynająca się w wierzchołku przypisania wartości do x, a kończąca się w wierzchołku używającym x.
+
+13
+Na czym polega koncepcja mutacji?
+Jest to metoda testowania testów polegająca na wprowadzaniu pojedynczych błędów do kodu i sprawdzaniu  czy testy je wykrywają.
