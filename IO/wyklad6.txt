@@ -1,0 +1,15 @@
+deck_id: 1109857409
+deck_name: Inżynieria oprogramowania MIMUW
+file_id: wyklad-6
+
+1
+Na czym polega Test-Driven Development (TDD)?
+Na tworzeniu automatycznych testów zanim zaczenimy kodować funkcjonalność..
+
+2
+Na czym polega Behavioral-Driven Development (BDD)?
+Na skupianiu się na oczekiwanym zachowaniu - specyfikacja w języku natrulanym.
+
+3
+Na czym polega Acceptance Test-Driven Development (ATDD)?
+Jak BDD, skupia sie na oczekiwaniach klienta, lecz w tym przypadku akceptuje on testy.

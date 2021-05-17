@@ -1,0 +1,15 @@
+deck_id: 1109857409
+deck_name: Inżynieria oprogramowania MIMUW
+file_id: wyklad-4
+
+1
+Czym są wymagania funkcjonalne?
+Są to funkcjonalności dostarczane przez system, opis jego zachowania w zależności od danych. Tworzą backlog.
+
+2
+Czym są wymagania niefunkcjonalne?
+Wymogi nakładane na funkcjolaności dostarczane przez system. Zazwyczaj dotyczą całego systemu. Są podstawą definicji "Done".
+
+3
+Jakie są przykłady typów wymagań niefunkcjonalnych?
+Wymagania prawne, etyczne, efektywnościowe, pamięciowe, niezawodności, dotyczące implementacji i sposobu dostawy.
