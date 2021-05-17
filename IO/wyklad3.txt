@@ -1,0 +1,15 @@
+deck_id: 1109857409
+deck_name: Inżynieria oprogramowania MIMUW
+file_id: wyklad-3
+
+1
+Na czym polega metoda MoSCoW?
+Na podziale na 4 kategorie w celu uzyskania Minimum Viable Product: Must Have, Should Have, Could Have, Won't have
+
+2
+Jakie znasz metody planowania backlogu?
+MoSCoW, Value-Complexity Matrix, Value-Based Prioritization
+
+3
+Jakie znasz miary wartości bizenesowej?
+Net Promoter Score, przychody/klient, powracanie klientów, zmniejszenie kosztup posiadania, zwiększenie liczby uzytkowników/klientów.
