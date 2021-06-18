@@ -217,7 +217,6 @@ Co to jest 3K, od jakich słów pochodzi i co się za nimi kryje?
 53
 Jakie są dobre praktyki przy prowadzeniu notatek ze spotkania biznesowego.<br>- Od notowania jest oddzielna osoba, która zajmuje się tylko tym.<br>- Przed spotkaniem musi być określona agenda, tego co będziemy omawiać, aby notujący mógł przygotować sobie przestrzeń do robienia notatek.<br>- Po zakończeniu każdego punktu obrad, czytamy notatki i wszyscy zastanawiają się, co jeszcze dodać.<br>- Osoba notująca może prosić o podsumowanie wypowiedzi.<br>- Notujemy prostymi zdaniami w punktach. (nie notujemy wszystkiego)<br>- Nie zostawiamy, rzeczy w domyśle, bo notatka będzie nieczytelna.<br>- Można używać skrótów, które powinny być jednak zestandaryzowane. Np. inicjały na czerwono oznaczają kto co mówił.
 
-
 54
 Co to są wymagania funkcjonalne i niefunkcjonalne?
 Wymagania funkcjonalne to funkcjonalności, które system dostarcza. Opis tego jak ma się zachowywać w zależności od wprowadzanych danych, czasem też jak ma się nie zachowywać. Wymagania funkcjonalne tworzą backlog. <br>Wymagania niefunkcjonalne to wymogi, które muszą spełniać funkcjonalności, które system dostarcza. Wymagania niefunkcjonalne przeważnie dotyczą całego systemu, a nie poszczególnych jego funkcjonalności. Wymagania niefunkcjonalne czasami mogą dodatkowo wymuszać istnienie wymagań funkcjonalnych lub konkretnych elementów backlogu. 
@@ -277,12 +276,10 @@ Błędy/pomyłki popełniają ludzie. Defekt/usterka jest wynikiem błędu ludzk
 
 68
 Co to jest pakiet testów (formalnie) i kiedy jest niezależny?
-Pakiet testów T to trójka uporządkowana:
-<br>< ∆0 , <T1 , T2 . . . Tk> , <∆1 , ∆2 . . . ∆k> > , gdzie:<br>- ∆0 to stan początkowy,<br>- Ti to poszczególne operacje testowe,<br>- ∆i to stan po wykonaniu testu Ti .<br>Przez stan rozumiemy tu zbiór par nazwa zmiennej i jej wartość.
+Pakiet testów T to trójka uporządkowana:<br>< ∆0 , <T1 , T2 . . . Tk> , <∆1 , ∆2 . . . ∆k> > , gdzie:<br>- ∆0 to stan początkowy,<br>- Ti to poszczególne operacje testowe,<br>- ∆i to stan po wykonaniu testu Ti .<br>Przez stan rozumiemy tu zbiór par nazwa zmiennej i jej wartość.
 
 69
 Jeśli testy wskazują na istnienie niepożądanego zachowania, to gdzie szukać przyczyny i w jakiej kolejności?<br>1) w kodzie<br>2) w testach<br>3) w specyfikacji<br>4) w OS, w kompilatorze, w bibliotekach, w sprzęcie<br>5) mamy problem
-
 
 70
 Co to są testy białej i czarnej skrzynki?
@@ -575,7 +572,7 @@ Skupienie uwagi na tym czego się uczysz. Ocena wyników i korygowanie punktu sk
 
 142
 Jaka jest rola osłonek mielinowych?
-	Osłonki mielinowe przyśpieszają przepływ informacji przez aksony (długie wypustki ruchu wychodzącego) neuronów (komórek nerwowych). [Idk skąd to pytanie, dotyczy chyba bardziej medycyny. Warto mieć rozszerzoną biologię]<br>Odpowiadają w dużej mierze za proces uczenia się neuronów, jakość przekazywania informacji między neuronami. Kiedy neuron jest aktywowany tam osłonki się wzmacniają. Kiedy jesteśmy skupieni pobudzamy 'wzrost' w odpowiednich miejscach, z kolei w rozproszeniu pobudzamy losowe (wniosek: praca/nauka w skupieniu jest wydajniejsza).
+Osłonki mielinowe przyśpieszają przepływ informacji przez aksony (długie wypustki ruchu wychodzącego) neuronów (komórek nerwowych). [Idk skąd to pytanie, dotyczy chyba bardziej medycyny. Warto mieć rozszerzoną biologię]<br>Odpowiadają w dużej mierze za proces uczenia się neuronów, jakość przekazywania informacji między neuronami. Kiedy neuron jest aktywowany tam osłonki się wzmacniają. Kiedy jesteśmy skupieni pobudzamy 'wzrost' w odpowiednich miejscach, z kolei w rozproszeniu pobudzamy losowe (wniosek: praca/nauka w skupieniu jest wydajniejsza).
 
 143
 Podaj argumenty potwierdzające, że dobrostan jest związany z pracą w skupieniu.
