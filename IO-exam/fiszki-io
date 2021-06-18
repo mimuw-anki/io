@@ -71,8 +71,6 @@ Są to godziny pracy, w których nic nam nie przeszkadza, nie trzeba odpisywać 
 Czemu punkty funkcyjne przydzielamy zgodnie ze skalami wykładniczymi?
 Mają one służyć względnej ocenie trudności zadań, a dużo prościej jest estymować na zasadzie “coś wydaje się mocno trudniejsze - dajmy 2x tyle punktów” niż “no to jest ciut trudniejsze, +1 punkt”. Często używa się zmodyfikowanego fibonacciego (1, 2, 3, 5, 8, 13, 20, 100, ∞)
 
-s/\n/\<br\>/g
-
 18
 Opisz zasady scrum pokera?
 Scrum poker składa się z paru kroków : <br> Każdy dostaje karty z liczbami opisującymi liczbę punktów funkcyjnych które można przydzielić do zadania <br> Wszyscy dyskutują <br> Każdy wybiera kartę, która mówi jak trudne według niego jest zadanie<br>Wszyscy pokazują karty <br>Jak wszystkie karty się zgadzają to super, a jak nie to: <br> Osoby o skrajnych poglądach tłumaczą swoje wybory, tzn. osoby które dały mało punktów mówią czemu to jest proste, a osoby które dały dużo mówią czemu jest trudne<br>Powtarzamy kroki 3-6 aż do momentu gdy wszyscy się zgodzą
@@ -91,8 +89,7 @@ Jest to metoda przydzielania priorytetów w Backlogu przez podzielenie ich na 4 
 
 22
 Na czym polega metoda Value-Complexity-board
-Polega na umieszczenie elementów Backlogu na wykresie złożoność - wartość. Robimy w kolejności (duża wartość - mała złożoność), (duża wartość - średnia złożoność), (mała wartość - mała złożoność), a nad resztą się zastanawiamy czy na pewno trzeba/czy da się podzielić. Low Value-High Complexity nie robimy. Kolejność można trochę pozmieniać.
-Obydwie metody przydają się w rozmowach z klientem
+Polega na umieszczenie elementów Backlogu na wykresie złożoność - wartość. Robimy w kolejności (duża wartość - mała złożoność), (duża wartość - średnia złożoność), (mała wartość - mała złożoność), a nad resztą się zastanawiamy czy na pewno trzeba/czy da się podzielić. Low Value-High Complexity nie robimy. Kolejność można trochę pozmieniać.<br>Obydwie metody przydają się w rozmowach z klientem
 
 23
 Co to jest Net Promoter Score (NPS)?
@@ -215,12 +212,12 @@ Co to jest 3K, od jakich słów pochodzi i co się za nimi kryje?
 3K to określenie cech dobrej historii użytkownika:<br>Karta - można ją przyczepić do tablicy, zabrać i powiesić nad ekranem, zebrać kilka i związać gumką.<br>Konwersacja  - jest informacją, że powinniśmy o tym elemencie porozmawiać, zanim go zaczniemy realizować. Nie można na niej napisać za dużo, więc wiadomo, że szczegóły trzeba jeszcze dogadać.<br>Konfirmacja  - co musi działać, abyśmy uznali, że jest zakończona. Specyficzne testy, ale na ogólnym poziomie. (Zwyczajowo zapisane na odwrocie).
 
 53
-Jakie są dobre praktyki przy prowadzeniu notatek ze spotkania biznesowego.<br>- Od notowania jest oddzielna osoba, która zajmuje się tylko tym.<br>- Przed spotkaniem musi być określona agenda, tego co będziemy omawiać, aby notujący mógł przygotować sobie przestrzeń do robienia notatek.<br>- Po zakończeniu każdego punktu obrad, czytamy notatki i wszyscy zastanawiają się, co jeszcze dodać.<br>- Osoba notująca może prosić o podsumowanie wypowiedzi.<br>- Notujemy prostymi zdaniami w punktach. (nie notujemy wszystkiego)<br>- Nie zostawiamy, rzeczy w domyśle, bo notatka będzie nieczytelna.<br>- Można używać skrótów, które powinny być jednak zestandaryzowane. Np. inicjały na czerwono oznaczają kto co mówił.
+Jakie są dobre praktyki przy prowadzeniu notatek ze spotkania biznesowego.
+-Od notowania jest oddzielna osoba, która zajmuje się tylko tym.<br>- Przed spotkaniem musi być określona agenda, tego co będziemy omawiać, aby notujący mógł przygotować sobie przestrzeń do robienia notatek.<br>- Po zakończeniu każdego punktu obrad, czytamy notatki i wszyscy zastanawiają się, co jeszcze dodać.<br>- Osoba notująca może prosić o podsumowanie wypowiedzi.<br>- Notujemy prostymi zdaniami w punktach. (nie notujemy wszystkiego)<br>- Nie zostawiamy, rzeczy w domyśle, bo notatka będzie nieczytelna.<br>- Można używać skrótów, które powinny być jednak zestandaryzowane. Np. inicjały na czerwono oznaczają kto co mówił.
 
 54
 Co to są wymagania funkcjonalne i niefunkcjonalne?
 Wymagania funkcjonalne to funkcjonalności, które system dostarcza. Opis tego jak ma się zachowywać w zależności od wprowadzanych danych, czasem też jak ma się nie zachowywać. Wymagania funkcjonalne tworzą backlog. <br>Wymagania niefunkcjonalne to wymogi, które muszą spełniać funkcjonalności, które system dostarcza. Wymagania niefunkcjonalne przeważnie dotyczą całego systemu, a nie poszczególnych jego funkcjonalności. Wymagania niefunkcjonalne czasami mogą dodatkowo wymuszać istnienie wymagań funkcjonalnych lub konkretnych elementów backlogu. 
- 
 
 55
 Podaj kilka przykładów miar dla wymagań niefunkcjonalnych?
