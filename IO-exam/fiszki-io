@@ -1,0 +1,643 @@
+deck_id: 2892192378
+deck_name: IO-egzamin
+file_id: io-egzamin-1
+
+1
+Czym jest inżynieria?
+Działalność polegająca na projektowaniu, konstrukcji, modyfikacji i utrzymaniu efektywnych kosztowo rozwiązań dla praktycznych problemów, z wykorzystaniem wiedzy naukowej oraz technicznej.
+
+2
+Czym jest inżynieria oprogramowania?
+Dyscyplina informatyczna stosująca podejście inżynierskie do tworzenia oprogramowania: od analizy i określenia wymagań, przez projektowanie i wdrożenie, aż do ewolucji gotowego oprogramowania. Systematyczne projektowanie i rozwój oprogramowania oraz zarządzanie procesem wytwarzania oprogramowania.
+
+3
+Czym był training within industry?
+Był to amerykański z czasów II wojny światowej sposób na poprawę wydajności w fabrykach. Polegał na tym, że wprowadzano małe zmiany w produkcji, często sugerowane przez robotników, które miały poprawiać wydajność
+
+4
+Co wprowadza toyota production system do koncepcji optymalizacji produkcji?
+Wprowadzili dwie ważne koncepcje: <br> Just in time - dostarczanie tylko tego co trzeba tylko w takiej ilości jaką trzeba i tylko wtedy kiedy trzeba (nie robimy na zapas, minimalizujemy straty) <br> “Automation with a human touch” - identyfikacja problemów tak szybko jak się da i rozwiązanie tak szybko jak się da (problem na linii -> stop produkcji, wołamy managera -> wszyscy rozwiązujemy problem -> wznawiamy pracę)
+
+5
+Gdzie w latach 80 pojawił się termin scrum?
+W artykule naukowym  'The New New Product Development Game' opublikowanym w Harvard Business Review w 1986, w którym autorzy opisywali nowe podejścia produkcyjne (nie do programowania, generalnie w produkcji)
+
+6
+Jakie etapy wyróżniamy w kaskadowej metodyce wytwarzania oprogramowania.
+Zebranie wymagań systemowych - co ma robić całość <br>Zebranie wymagań softwarowych - co robi oprogramowanie <br>Analiza <br>Projekt<br>Kodowanie<br>Testowanie<br>Użycie<br>
+
+7
+Jakie są główne problemy z kaskadowym podejściem do wytwarzania oprogramowania.
+Czasem trzeba się cofać, może się okazać że dochodzimy do końca i trzeba wrócić się prawie do początku (bo coś źle poszło), trzeba wiedzieć dokładnie co się chce (a tego klienci nie wiedzą). Musi być stała specyfikacja. Koszt pisania kodu nie jest taki duży, więc można eksperymentować a nie robić wielką analizę. Ogranicza kreatywność programistów. Testy warto robić w czasie pisania kodu. Nie ma miejsca na zarządzanie rynkiem (zmienne warunki). Na różnych etapach potrzebni są różni ludzie, reszta się nudzi (trzeba robić pipeline).
+
+8
+Jakie są zalety kaskadowego podejścia do wytwarzania oprogramowania?
+Jest podobne do procesów stosowanych od dawna np w architekturze. Pozwala tworzyć bardzo dobrze wyspecyfikowane oprogramowanie, odporne na błędy (dobre do NASA), o ile od początku wiadomo dokładnie co się robi i warunki/środowisko się nie zmienia. Przydaje się do pisania kodu który musi być w 100% odporny na błędy, bo koszt poprawy błędów jest duży.
+
+9
+Jak w NASA zmodyfikowano podejście kaskadowe.
+Wprowadzono bardzo silną kontrolę jakości, analiza i prototypowanie zajmowało ¼ - ⅓ czasu projektu, bardzo mocno testowano każdy fragment, wymagano bardzo ścisłej specyfikacji.
+ 
+10
+Wymień najważniejsze elementy charakteryzujące metodyki zwinne.
+Celem jest dostarczenie wartościowego, a nie napakowanego głupotami oprogramowania, duża elastyczność, podział na częste sprinty (tu połączenie programowania iteracyjnego z inkrementacyjnym), częsta i silna komunikacja z klientem, samoorganizacja zespołów i zezwolenie na kreatywność, najlepszą komunikacją jest rozmowa, brak przeciążania, ciągłe poprawki, just in time (patrz pyt 4), Kaizen (okresowa ewaluacja własnej produktywności i próba jej poprawy)
+
+11
+Czym się różnią metody inkrementacyjne od iteracyjnych. 
+Metody inkrementacyjne polegają na podzieleniu projektu na parę osobnych części i robienie ich jedna po drugiej (dla każdej można np realizować system kaskadowy), natomiast iteracyjne polegają na tworzeniu kolejnych, coraz lepszych i dokładniejszych “całości”, prototypów, najpierw piszemy coś na pałę a potem coraz bardziej poprawiamy tak żeby lepiej klientowi odpowiadało.
+ 
+
+12
+Co to jest backlog?
+Uporządkowana lista rzeczy do zrobienia. Koncepcyjnie zespół bierze z backlogu kolejne elementy i je realizuje budując produkt. W backlogu mogą znajdować się: funkcjonalności do zrealizowania, modyfikacje ustalone z klientem, błędy do naprawienia, poprawki techniczne, konieczność nauczenia się czegoś..
+
+13
+Na czym polega metafora góry lodowej dla backlog?
+“A good backlog is shaped like an iceberg: small items at the top, bigger items below there and who knows what’s under the waterline.” Backlog powinien się ciągle zmieniać, ewoluować (góra lodowa też zmienia swój kształt xd)
+
+14
+Jakie parametry powinny mieć elementy backlogu?
+Każdy element powinien mieć  przypisane: nazwę/opis, czasochłonność, priorytet, kryteria akceptacji.
+
+15
+Co to są punkty funkcyjne?
+Jest to bezwymiarowa jednostka służąca do szacowania trudność zadania. Sama z siebie dużo wartości nie ma, sens ma dopiero w połączeniu ze znajomością szybkości pracy zespołu, dzięki temu można oszacować ile co da się zrobić w 1 sprincie.
+
+16
+Co to są idealne godziny?
+Są to godziny pracy, w których nic nam nie przeszkadza, nie trzeba odpisywać na maile itp. tylko kodzimy. Mogą służyć do opisywania trudności zadania, ale rzadziej się używa bo ciężko wytłumaczyć, że człowiek który pracuje 8 godzin dziennie robi dziennie np 3 idealne godziny pracy
+
+17
+Czemu punkty funkcyjne przydzielamy zgodnie ze skalami wykładniczymi?
+Mają one służyć względnej ocenie trudności zadań, a dużo prościej jest estymować na zasadzie “coś wydaje się mocno trudniejsze - dajmy 2x tyle punktów” niż “no to jest ciut trudniejsze, +1 punkt”. Często używa się zmodyfikowanego fibonacciego (1, 2, 3, 5, 8, 13, 20, 100, ∞)
+
+s/\n/\<br\>/g
+
+18
+Opisz zasady scrum pokera?
+Scrum poker składa się z paru kroków : <br> Każdy dostaje karty z liczbami opisującymi liczbę punktów funkcyjnych które można przydzielić do zadania <br> Wszyscy dyskutują <br> Każdy wybiera kartę, która mówi jak trudne według niego jest zadanie<br>Wszyscy pokazują karty <br>Jak wszystkie karty się zgadzają to super, a jak nie to: <br> Osoby o skrajnych poglądach tłumaczą swoje wybory, tzn. osoby które dały mało punktów mówią czemu to jest proste, a osoby które dały dużo mówią czemu jest trudne<br>Powtarzamy kroki 3-6 aż do momentu gdy wszyscy się zgodzą
+
+19
+Po co używać scrum pokera?
+Przyspiesza szacowanie trudności i zmusza wszystkich do wypowiedzenia się (choćby tylko pokazaniem karty), dodatkowo ogranicza możliwość gadania osób które wybrały środkowe wartości. Wymusza również żeby każdy członek zespołu ogarnął co to ma być przynajmniej na tyle żeby oszacować koszt
+
+20
+Jakie jest znaczenie karty ze znakiem zapytania w talii kart do scrum pokera?
+Za słabo rozumiem co to ma być, proszę o ponowne wytłumaczenie
+
+21
+Na czym polega metoda MoSCoW
+Jest to metoda przydzielania priorytetów w Backlogu przez podzielenie ich na 4 grupy: Must have, Should have, Could have, Won’t Have(obecnie, ale będziemy chcieli w przyszłości). Generalnie elementom ze wcześniejszej grupy dajemy większy priorytet, do sprinta bierzemy trochę z M, S, C i jak czegoś z C czy S nie zrobimy to nic się nie zawali. W miarę prosta metoda. W tej metodzie przydaje się ogólna wizja projektu i trzeba się zawsze zastanowić, czy da się wypuścić produkt bez jakiegoś elementu
+
+22
+Na czym polega metoda Value-Complexity-board
+Polega na umieszczenie elementów Backlogu na wykresie złożoność - wartość. Robimy w kolejności (duża wartość - mała złożoność), (duża wartość - średnia złożoność), (mała wartość - mała złożoność), a nad resztą się zastanawiamy czy na pewno trzeba/czy da się podzielić. Low Value-High Complexity nie robimy. Kolejność można trochę pozmieniać.
+Obydwie metody przydają się w rozmowach z klientem
+
+23
+Co to jest Net Promoter Score (NPS)?
+Przykładowy wskaźnik zadowolenia klientów. Pytamy klientów czy poleciliby nasz produkt znajomym (w skali od 0 do 10). Wartość wskaźnika obliczamy: <br> liczba odpowiedzi {9, 10} - liczba odpowiedzi {0, ..., 6}
+
+24
+Co to jest wskaźnik konwersji?
+Wskaźnik konwersji pokazuje liczbę konwersji w przeliczeniu jej na liczbę wszystkich odwiedzin strony. Dzięki niemu możemy sprawdzić efektywność swojej strony internetowej czy sklepu internetowego. Wylicza się go tak: <br> wskaźnik konwersji = liczba konwersji / liczba użytkowników × 100%<br> Mówiąc prościej, jeśli wskaźnik konwersji dla strony, którą odwiedziło w ciągu miesiąca 15000 osób wynosi 1.4%, to oznacza, że 1.4% odwiedzających zrealizowało cel konwersji – a więc dokonało zakupów w sklepie / zainteresowało się katalogiem / spędziło kilka minut na stronie przeglądając materiały.<br>KONWERSJA  – jest to określone, oczekiwane działanie wykonane przez odbiorcę, potencjalnego klienta w odpowiedzi na skierowaną do niego kampanię reklamową w internecie
+
+25
+Co to są persony?
+Persony to fikcyjne postacie użytkowników, oddające ich różne typy. Tworzy się je, aby łatwiej wczuć się w ich potrzeby i projektować dla nich produkt.
+
+26
+Na czym polega mapa wpływu?
+Impact mapping pozwala na ograniczenie działań niepotrzebnych i niedostatecznie wspierających osiągnięcie celu. Zapewnia skupienie się na dostarczaniu odpowiednich produktów i realizację tych zadań, które wpływają na osiągnięcie celu. Impact mapping to technika, która wizualizuje wpływ poszczególnych działań i produktów tych działań. Pozwala na odpowiedź na 4 kluczowe pytania:<br>Dlaczego? – dlaczego to robimy, jaki jest nasz cel?<br>Kto? – na kogo wpływamy? kto będzie używał naszego produktu? kto zrealizuje cel? kto będzie blokerem?<br>Jak? – jakie działania zostaną podjęte by osiągnąć cel lub oddalić nas od celu<br>Co? – co dostarczy nam wykonane działanie, jaka będzie dostarczona wartość,
+	
+ 
+27
+Wymień przynajmniej 4 rodzaje ryzyk, z którymi może mierzyć się w projektach informatycznych.
+- Ryzyko zmiany warunków biznesowych<br>- Ryzyko związane z niezweryfikowaniem założeń<br>- Ryzyko związane z tym, że ktoś na zewnątrz zawali<br>- Ryzyko problemów w zespole.
+
+28
+Jak liczymy expected monetary value i do czego służy?<br>Expected Monetary Value - wartość oczekiwana zysku lub straty, pomaga oszacować podejmowane ryzyko.<br>EMV to suma iloczynów prawdopodobieństwa wystąpienia danego zdarzenia oraz zysku lub straty, jakie to zdarzenie przyniesie.
+
+29
+ Co to jest definicja Done?
+Umowa pomiędzy członkami zespołu, która określa co wszyscy rozumiemy kiedy ktoś mówi, że coś jest zrobione. Przeważnie określana, przez zestaw standardów, konwencji, wytycznych, które muszą być spełnione.
+
+30
+Wymień kilka elementów, które należy uwzględnić projektując definicję Done?
+Projektując definicję Done należy uwzględnić między innymi:<br>- sposób pisania kodu<br>- sposób testowania produktu<br>- co będzie automatyzowane<br>- wydajność i skalowalność<br>- sposób zapewnienia bezpieczeństw<br>- sposób zagwarantowania zgodności z prawem i normami administracyjnymi<br>- wymagane dokumenty<br>- sposób weryfikacji zgodności ze standardami deweloperskimi
+
+31
+Jakie rodzaje funkcjonalności mogą mieć wpływ na definicję Done?
+#TODO
+
+32
+Jakie są w problemy ze zbyt rozbudowaną definicją Done
+#TODO
+
+33
+Podaj scenariusz w którym należy spodziewać się zmian w definicji Done.
+#TODO
+
+34
+Czemu Sprinty powinny być krótkie?
+Zbliżający się deadline motywuje do działania.
+
+35
+Czemu lepiej jeśli sprinty mają stałą długość?
+Łatwiej jest wtedy planować spotkania (z klientem, właścicielem produktu, w teamie). <br>Wprowadza rutynę pracy i działania.
+
+36
+Co to jest Wizja?
+Wizja - dokument, który zawiera definicję ogólnego zakresu i celu programu, produktu lub projektu. Jasne sformułowanie problemu, propozycja rozwiązania oraz składniki wysokiego poziomu pomagają określić oczekiwania i ograniczyć ryzyko.
+
+37
+Jaki jest cel dokumentu wizji?
+Głównym zadaniem wizji jest przekazanie osobom zarządzajacym wiedzy potrzebnej do zdecydowania, czy projekt będzie realizowany i z jakim priorytetem. Dzięki wizji informatycy w rozmowie z klientem wiedzą, na czym powinni się koncentrować. Projekty bez wizji mają tendencja zmieniać się w zbiór luźno powiązanych funkcjonalności.
+
+38
+Jaki powinien być orientacyjny rozmiar dokumentu wizji?
+do 10 stron
+
+39
+Co to jest trójkąt, koszt, zakres, czas i czemu jest mylący?
+#TODO
+ 
+40
+Jakie rzeczy bierzemy pod uwagę planując datę dystrybucji?
+Planując datę dystrybucji należy brać pod uwagę różne wydarzenia:<br>- targi,<br>- święta,<br>- wakacje,<br>- zamknięcie roku rozliczeniowego.
+
+41
+Co to są historie użytkownika?
+To krótka notatka o funkcjonalności, coś co można wrzucić do backlogu i w pewnym momencie uściślić przed przystąpieniem do implementacji.<br>Ma formę:<br>Bohater (użytkownik) chce/musi coś zrobić (czynność) aby (wytłumaczenie po co dlaczego to chce/musi zrobić).
+
+42
+Rozwiń skrót INVEST
+I - niezależna (Independent)<br>N - negocjowalna (Negotiable)<br>V - wartościowa (Valuable)<br>E - estymowalna - w sensie czasu (Estimable)<br>S - mała (Sized Appropriately)<br>T - testowalna (Testable)
+
+43 
+Co to jest Epos?
+Bardzo duże objętościowo zadanie(na kilka miesięcy), które może być rozdzielone na mniejsze zadania (historie). <br>W koncepcji góry lodowej backlogu: Eposy na dole, historie użytkownika na górze.
+
+44
+Po co dzielimy historie użytkownika? 
+- są za duże<br>- aby usunąć niewartościowe kawałki<br>Ogólne zasady:<br>- Jeśli split pozwala odrzucić/opóźnić mało wartościowe kawałki, to należy go zrobić.<br>- Wybierz zasadę, która prowadzi do bardziej równomiernego podziału.
+
+45
+Co to znaczy, że historie dzielimy wertykalnie lub horyzontalnie?
+#TODO
+
+46
+Co to jest historia poziomu użytkownika?
+Historia poziomu użytkownika - historia opisująca funkcjonalności, które użytkownik chce wykonać i nie mają dla niego sensu podzielone.
+
+47
+Na jak dobrze dzielić historię opisująca workflow?
+#TODO
+
+48
+Na czym polega wzorzec podziału historii wersja złota / wersja brązowa?
+#TODO
+
+49
+Jak dzielić historię z wieloma parametrami?
+#TODO
+
+50
+Co to jest schemat podziału historii nazywany Głównym kosztem?
+#TODO
+
+51
+Co to jest spike?
+#TODO
+
+52
+Co to jest 3K, od jakich słów pochodzi i co się za nimi kryje?
+3K to określenie cech dobrej historii użytkownika:<br>Karta - można ją przyczepić do tablicy, zabrać i powiesić nad ekranem, zebrać kilka i związać gumką.<br>Konwersacja  - jest informacją, że powinniśmy o tym elemencie porozmawiać, zanim go zaczniemy realizować. Nie można na niej napisać za dużo, więc wiadomo, że szczegóły trzeba jeszcze dogadać.<br>Konfirmacja  - co musi działać, abyśmy uznali, że jest zakończona. Specyficzne testy, ale na ogólnym poziomie. (Zwyczajowo zapisane na odwrocie).
+
+53
+Jakie są dobre praktyki przy prowadzeniu notatek ze spotkania biznesowego.<br>- Od notowania jest oddzielna osoba, która zajmuje się tylko tym.<br>- Przed spotkaniem musi być określona agenda, tego co będziemy omawiać, aby notujący mógł przygotować sobie przestrzeń do robienia notatek.<br>- Po zakończeniu każdego punktu obrad, czytamy notatki i wszyscy zastanawiają się, co jeszcze dodać.<br>- Osoba notująca może prosić o podsumowanie wypowiedzi.<br>- Notujemy prostymi zdaniami w punktach. (nie notujemy wszystkiego)<br>- Nie zostawiamy, rzeczy w domyśle, bo notatka będzie nieczytelna.<br>- Można używać skrótów, które powinny być jednak zestandaryzowane. Np. inicjały na czerwono oznaczają kto co mówił.
+
+
+54
+Co to są wymagania funkcjonalne i niefunkcjonalne?
+Wymagania funkcjonalne to funkcjonalności, które system dostarcza. Opis tego jak ma się zachowywać w zależności od wprowadzanych danych, czasem też jak ma się nie zachowywać. Wymagania funkcjonalne tworzą backlog. <br>Wymagania niefunkcjonalne to wymogi, które muszą spełniać funkcjonalności, które system dostarcza. Wymagania niefunkcjonalne przeważnie dotyczą całego systemu, a nie poszczególnych jego funkcjonalności. Wymagania niefunkcjonalne czasami mogą dodatkowo wymuszać istnienie wymagań funkcjonalnych lub konkretnych elementów backlogu. 
+ 
+
+55
+Podaj kilka przykładów miar dla wymagań niefunkcjonalnych?
+szybkość procesowania transakcji, mierzona w sekundach<br>czas pomiędzy kliknięciem, a reakcją systemu, mierzona w s.<br>rozmiar, mierzony w MB<br>łatwość w użyciu, miara: czas potrzebny na przerobienie tutoriala, liczba godzin poświęconych na szkolenia<br>niezawodny, miara: średni czas między awariami, średni czas bycia dostępnym<br>odporny na ataki, miara: czas potrzebny na restart po błędzie, procent błędów powodujących awarie<br>przenoszalność, miara: liczba systemów współpracujących
+
+56
+Jak poradzić sobie z weryfikacją wymagania zgodności produktu z prawem polskim?
+Jedyną możliwością jest uzyskanie opinii ekspertów (prawników). Należy wtedy rozważyć, czy bardziej opłaca się nam zatrudnić ich na cały okres tworzenia oprogramowania i na bieżąco sprawdzać zgodność z prawem polskim, czy już po stworzeniu produktu, co opóźni jego wydanie.
+
+57
+Co to jest diagram dziedziny?
+Diagram dziedziny - notacja graficzna, która służy do zobrazowania powiązań między pojęciami biznesowymi, terminami z danej dziedziny, aby móc się nimi posługiwać w rozmowie z klientem i "rozumieć jego język".
+
+58
+Jakich rodzajów krawędzi używamy w diagramie dziedziny?
+Rodzaje krawędzi (jak w diagramach klas):<br>- dziedziczenie - strzałka z pustym grotem w stronę rodzica<br>- powiązanie - prosta linia z opisem zależności oraz arnością (1, x, 0..1, 0..*, * itp.) przy każdej ze stron<br>- kompozycja (zawieranie) - strzałka z wypełnionym diamentem (rombem) w stronę encji zawierającej, można dopisać arności<br>- agregacja - strzałka z pustym diamencikiem, jak kompozycja, ale instancje obydwu encji mogą istnieć niezależnie od siebie
+
+59
+Co to jest BDD?
+BDD - Behavioral-Driven Development - jedna z technik zwinnego programowania, polegająca na:<br>- Skupianiu się na oczekiwanym zachowaniu konkretnych funkcjonalności. Oczekiwanym przez biznes.<br>- Do specyfikacji zachowania używamy przykładów spisywanych w strukturalizowanym języku naturalnym.<br>- Przykłady są budowane kolaboracyjne przez przedstawicieli 3 grup (biznes, developerzy, testerzy).<br>- Dobrze jeśli z przykładów uda się zrobić automatyczne testy.<br>Zalety BDD:<br>- Koncentracja na testach biznesowych wartości.<br>- Łatwiejsze utrzymanie testów, niż w TDD.<br>- Testy zrozumiałe dla biznesu.<br>- Testy lepszej jakości.
+
+60
+Co to jest TDD?
+TDD - Test Driven Development - praktyka, polegająca na tworzeniu automatycznych testów zanim zaczniemy kodować funkcjonalność. Kodujemy tylko tyle aby testy przeszły. Jeśli dodamy nowe testy, zmieniamy tylko tyle aby nowe testy przechodziły.<br>Zalety:<br>- Redukuje czas potrzebny na pracę.<br>- Przyspiesza wykrywanie i znajdowanie błędów.<br>- Szybciej dostajemy informację zwrotną.<br>- Motywuje do bardziej przejrzystego i czystszego projektowania.<br>- Pozwala zespołowi zacząć pracę nad kodem nawet jeśli nie wszyscy są obecni.<br>- Wspiera współpracę i wymianę wiedzy.<br>- Ułatwia wprowadzanie dużych zmian w kodzie.<br>- Wspiera tworzenie kodu, który jest łatwy do utrzymania.
+
+61
+Co to jest ATDD?
+ATDD - Acceptance Test-Driven Development - to samo co BDD, ale w BDD chodzi o zrozumienie wymagań, a w ATDD o stworzenie kryteriów akceptacji. Przeważnie używa się ich razem.
+
+62
+Czemu warto dążyć do żywej dokumentacji?
+#TODO
+
+63
+Co to jest Cucumber?
+#TODO
+
+64
+Jak wygląda pisanie testów w języku Gherkin(Cucumner)
+#TODO
+
+65
+Co to jest Selenium?
+Framework do testowania aplikacji webowych poprzez udostępnienie programu testującemu struktury dokumentu oraz pozwolenie mu na symulowanie interakcji.
+
+66
+Jak wygląda architektura selenium driver?
+Selenium driver jest częścią selenium która odpowiada za interakcję z przeglądarką, uruchomioną na systemie z tą przeglądarką (aplikacja testująca może być uruchomiona na innym systemie), komunikuje się ona z biblioteką selenium używaną przez program testujący. Najczęściej jest to wtyczka do przeglądarki.
+
+67
+Wyjaśnij terminy, awaria, błąd, usterka?
+Błędy/pomyłki popełniają ludzie. Defekt/usterka jest wynikiem błędu ludzkiego. Uruchomienie oprogramowania zawierającego defekty/usterki może spowodować pojawienie się awarii. (z https://www.toniebug.pl/co-to-jest-blad-defekt-awaria/ )
+
+68
+Co to jest pakiet testów (formalnie) i kiedy jest niezależny?
+Pakiet testów T to trójka uporządkowana:
+<br>< ∆0 , <T1 , T2 . . . Tk> , <∆1 , ∆2 . . . ∆k> > , gdzie:<br>- ∆0 to stan początkowy,<br>- Ti to poszczególne operacje testowe,<br>- ∆i to stan po wykonaniu testu Ti .<br>Przez stan rozumiemy tu zbiór par nazwa zmiennej i jej wartość.
+
+69
+Jeśli testy wskazują na istnienie niepożądanego zachowania, to gdzie szukać przyczyny i w jakiej kolejności?<br>1) w kodzie<br>2) w testach<br>3) w specyfikacji<br>4) w OS, w kompilatorze, w bibliotekach, w sprzęcie<br>5) mamy problem
+
+
+70
+Co to są testy białej i czarnej skrzynki?
+#TODO
+
+71
+Po co robić testy czarnej skrzynki?
+#TODO
+
+72
+Wymień poziomy testów i opisz je krótko.
+#TODO
+
+73
+Wyjaśnij koncepcję “smoke testing”.
+#TODO
+
+74
+Czym się, różnią testy alpha od testów beta
+#TODO
+
+75
+Opisz z grubsza koncepcję category partition method.
+#TODO
+
+76
+Zgodnie z metodyką category partition method zaprojektuj testy dla funkcji sprawdzającej czy string 1 jest pod słowem stringa 2.
+#TODO
+
+77
+Co to jest all-pair testing?
+#TODO
+
+78
+Co to jest pokrycie kodu testami? Podaj dwa przykłady miar pokrycia.
+#TODO
+
+79
+Co to jest control flow graf programu (graf przepływu sterowania).
+#TODO
+
+80
+Co to jest all-du- testing.
+#TODO
+
+81
+Wyjaśnij koncepcję testowania programu przy użyciu mutacji.
+#TODO
+
+82
+Jakie są główne problemy związane z podejściem do oceny jakości testów przy użyciu mutowania kodu?
+#TODO
+
+83 
+Opisz zadania właściciela produktu.
+#TODO
+
+84
+Opisz rolę mistrza młyna.
+#TODO
+
+85
+Jeśli łączymy rolę mistrza młyna z innymi rolami, to jakie mogą wiązać się z tym problemy
+#TODO
+
+86
+Jakie obowiązki (oprócz kodowania) ma zespół developerski?
+#TODO
+
+87
+Co to jest głosowanie rzymskie i jaka jest jego rola?
+#TODO
+
+88
+Jakie cechy powinien mieć zespół developerski?
+#TODO
+
+89
+Z czego wynika optymalna wielkość zespołu i ile wynosi?
+#TODO
+
+90
+Wymień cztery przykłady przeszkód w efektywnej komunikacji w zespole.
+#TODO
+
+91
+Co to są profile pracownika, T, Pi, i Combo?
+#TODO
+
+92
+Jaka jest rola Menedżera i czym różni się on od właściciela produktu?
+#TODO
+
+93
+Co to są zespoły komponentowe?
+#TODO
+
+94
+Czy na spotkaniu dotyczącym planowania sprintu, zespół powinien ustalać kto wykona jakie zadanie?
+#TODO
+
+95
+Co należy robić na spotkaniu planowanie sprintu.
+#TODO
+
+96
+Planując wykonanie sprintu, jakie rzeczy powinniśmy brać pod uwagę?
+#TODO
+
+97
+Co to jest daily scrum?
+#TODO
+
+98
+Po co jest daily scrum? Podaj 3 powody.
+#TODO
+
+99
+Co to jest przegląd sprinta?
+#TODO
+
+100
+Jak należy przygotować się do przeglądu sprintu?
+#TODO
+
+101
+W czasie przeglądu sprinta jakie pytania warto zadać dla każdej oddanej funkcjonalności?
+#TODO
+
+102
+Kto powinien sporządzać notatki na spotkaniu z klientem?
+#TODO
+
+103
+Co to jest Retrospekacja w metodyki Scrum?
+#TODO
+
+104
+Jaka jest rola Mistrza młyna w czasie retrospekcji?
+#TODO
+
+105
+Po co Właściciel produktu na spotkaniu retrospekcyjnym?
+#TODO
+
+106
+Co to jest punkt skupienia retrospekcji?
+#TODO
+
+107
+Co to są wykresy spalania i rozpalania?
+#TODO
+
+108
+Co powinno być wynikiem retrospekcji?
+#TODO
+
+109
+Co to jest głosowanie kropkowe i do czego można go użyć na spotkaniu retrospekcyjnym?
+#TODO
+
+110
+Jakie problemy mogą przeszkodzić w owocnych retrospekcjach. Wymień 5
+#TODO
+
+111
+Co to jest dług technologiczny?
+#TODO
+
+112
+Jakie są 3 rodzaje długu technologicznego?
+#TODO
+
+113
+Czym oprócz spowolnienia rozwoju produktu może skutkować wzrost długu technologicznego.
+#TODO
+
+114
+Czym się różni dług natywny od nieuniknionego?
+#TODO
+
+115
+Jakie opcje warto rozważyć jeśli dług jest bardzo duży?
+#TODO
+
+116
+Podaj przykłady 3 sytuacji kiedy nie warto spłacać długu technologicznego.
+#TODO
+
+117
+Kiedy i po co zaciągamy strategiczny dług technologiczny?
+#TODO
+
+118
+Co należy brać pod uwagę podejmując decyzję o zaciąganiu strategicznego długu technologicznego? Podaj przynajmniej 4 aspekty.
+#TODO
+
+119
+Co to jest rejestr długu?
+#TODO
+
+120
+Co to jest metoda skauta w zarządzaniu długiem technologicznym?
+#TODO
+
+121
+Co to jest refaktoryzacja, wymień 3 główne charakterystyki.
+#TODO
+
+122
+Jak wygląda pętla refaktoryzacyjna?
+#TODO
+
+123
+Podaj 3 podstawowe cele refaktoryzacji.
+#TODO
+
+124
+Wskaż problemy, które mogą utrudniać/uniemożliwiać refaktoryzację.
+#TODO
+
+125
+Podaj 3 przykłady symptomów złego kodu. 
+#TODO
+
+126
+Co to jest schemat refaktoryzacyjny, zastąpienie zmiennej zapytaniem.
+#TODO
+
+127
+Co to jest schemat refaktoryzacyjny wprowadzenie obiektu parametrycznego?
+#TODO
+
+128
+Co to jest schemat refaktoryzacji ukrycie delegata?
+#TODO
+
+129
+Co to jest schemat refaktoryzacji ekstrakcja funkcji i jakie problemy mogą się pojawić?
+#TODO
+
+130
+Wyjaśnij w jakim sensie możemy modelować komputer jako automat.
+Komputer ma skończoną pamięć, a więc i skończoną liczbę stanów, w których może się znaleźć. Pomiędzy tymi stanami istnieją przejścia. A zatem działanie komputera to ścieżka (biegów) w grafie skierowanym zadanym przez możliwe stany pamięci i przejścia pomiędzy nimi. Najbardziej dokładna możliwa zawartość logu to zapis biegu, lista kolejnych odwiedzonych stanów. Zachowanie komputera nie jest deterministyczne, więc dla danego stanu początkowego istnieje zbiór biegów (logów) i możemy mówić o języku (jak w teorii automatów). Język jest regularny, więc sprawdzanie równości jest możliwe. 
+
+131
+Podaj przykład relacji definiującej nierozróżnialność systemów.
+Dwa systemy są nierozróżnialne są wtedy i tylko wtedy, gdy wszelkie logi które generują (chronologiczne zapisy z ich pracy) są identyczne.
+
+132
+Podaj przykładowe własności, które chcemy weryfikować dla systemów.
+czy może dojść do deadlocka<br>czy dwa procesy wejdą do sekcji krytycznej<br>czy nastąpi wyciek haseł dostępu
+
+133
+Co to jest logika LTL.
+Język formalny służący do precyzyjnego opisu zachowań (stanów) systemów/programów w czasie.
+
+134
+Jaka jest semantyka symbolu X w logice LTL?
+Xφ2 jeśli φ2 zachodzi dla słowa uzyskanego przez odcięcie 1 litery.
+
+135
+Jaka jest semantyka symbolu U w logice LTL.
+pUq wtedy i tylko wtedy, gdy w pewnym momencie w przyszłości zajdzie q, a do owego momentu zawsze prawdziwe będzie p.
+
+136
+Napisz w logice LTL, że własność “p” zachodzi zawsze.
+~trueU(~p)
+
+137
+Napisz w logice LTL, że zawsze jeśli kierowca wciśnie pedał hamulca to samochód w przyszłości rozpocznie hamowanie. Masz predykaty “pedał hamulca wciśnięty”, “samochód hamuje”.
+p - pedał hamulca wciśnięty, q - samochód hamuje <br>p => trueUq
+
+138
+Co to jest Spin?
+Spin - narzędzie do symulacji i weryfikacji programów współbieżnych, napisanych w języku Promela.
+
+139
+Co to jest Promela?
+Jest to bardzo prosty język do opisu systemów współbieżnych (nie ma w nim np. procedur ani liczb rzeczywistych).
+
+140
+Podaj przynajmniej jeden mechanizm, którego można użyć do komunikacji pomiędzy procesami w promeli.
+[NK potwierdzi, czy dobrze myślę] Zmienne globalne.
+
+141
+Co to są ćwiczenia celowe?
+Skupienie uwagi na tym czego się uczysz. Ocena wyników i korygowanie punktu skupienia na tym co jest ważne.
+
+
+142
+Jaka jest rola osłonek mielinowych?
+	Osłonki mielinowe przyśpieszają przepływ informacji przez aksony (długie wypustki ruchu wychodzącego) neuronów (komórek nerwowych). [Idk skąd to pytanie, dotyczy chyba bardziej medycyny. Warto mieć rozszerzoną biologię]<br>Odpowiadają w dużej mierze za proces uczenia się neuronów, jakość przekazywania informacji między neuronami. Kiedy neuron jest aktywowany tam osłonki się wzmacniają. Kiedy jesteśmy skupieni pobudzamy 'wzrost' w odpowiednich miejscach, z kolei w rozproszeniu pobudzamy losowe (wniosek: praca/nauka w skupieniu jest wydajniejsza).
+
+143
+Podaj argumenty potwierdzające, że dobrostan jest związany z pracą w skupieniu.
+neurobiologiczny - jeśli lubimy swoją pracę to wtedy praca w skupieniu, która z definicji jest lepsza powinna sprawiać nam jeszcze więcej przyjemności. Im lepiej uporządkowana praca tym lepiej uporządkowane nasze życie.<br>psychologiczny - eksperyment Csikszentmihalyi (xd) i Larson, w którym regularnie (ale losowo, nie było określonej godziny) pytano grupę ludzi przez telefon/pager "co teraz robisz i jak się czujesz?". Wyniki pokazały, że najlepsze chwile dla tych osób były kiedy "ciało i umysł napięte są do  granic w dobrowolnym wysiłku, by wykonać coś trudnego i wartościowego".<br>filozoficzny - ciężko nadać życiu sens, jeśli sens widzimy tylko w swoim istnieniu. Można szukać sensu w pracy, tworzeniu czegoś pięknego, gdzie można się 'ścigać' i dążyć do perfekcji. Życie rzemieślnika.
+
+
+144
+Podaj trzy przykłady korporacyjnych zachowań/praktyk, które utrudniają pracę w skupieniu.
+* open space<br>* częste spotkania biznesowe<br>* masa maili/komunikatory<br>* media społecznościowe - "Tweeter to koka dla medialnych nałogowców."<br>* gwiazdy biznesu - nie pracują w skupieniu i nieświadomie promują takie zachowanie
+
+145
+Co to jest zasada najmniejszego oporu w świecie biznesu.
+"Trudno obiektywnie zmierzyć udział poszczególnych osób w wynikach firmy". <br>W środowisku biznesowym, przy braku informacji o wpływie różnych zachowań na efektywność, istnieje skłonność do najłatwiejszych w danej chwili zachowań. Np. piszę masę kodu, nic jeszcze nie stestowałem, ale ciągle piszę dalej, bo jest prościej.
+
+146
+Opisz zjawisko krzątanina jako miara efektywności.
+W środowisku gdzie ciężko ocenić co my właściwie robimy i co przynosi dobre skutki (nie widzimy efektów pracy) powstają skłonności do zajmowania się widocznymi rzeczami, które w ostatecznym rozrachunku mogą się okazać mało efektywne. Przykładowo:<br>wysyłanie maili, uczestnictwo w spotkaniach, komunikacja.
+
+147
+Na czym polega metoda “Getting things done”?
+Metodyka, która pozwala optymalizować wykorzystanie czasu. Robimy to-do listy - dzielimy na materialne (wymagające sprzętu, działalność fizyczna) i niematerialne. Listę analizujemy w kolejności LIFO i dla każdego punktu zadajemy pytanie, gdzie ma trafić: kosz, archiwum, może kiedyś, robię natychmiast. Co jeśli 'robię natychmiast':<br>* jeśli da się zrobić w 2min to zrób teraz<br>* oddelegowanie, żeby ktoś inny za mnie to zrobił (np. automatyczne płatności)<br>* odłóż na później -> podziel na listę projektów porządkowanych po kategoriach: dom, biuro, telefon, internet, itd. (co jest mi potrzebne do zrobienia). Przeglądy tej listy robimy codziennie i co tydzień, i planujemy gdzie będziemy dzisiaj, co będziemy z tej listy robić.
+
+148
+Wyjaśnij bimodalną koncepcję uprawiania pracy głębokiej.
+Mamy azyl, w którym skupiamy się wyłącznie na pracy, poza azylem prowadzimy normalne życie. Ciężka do realizacji w normalnym życiu.
+
+149
+Wyjaśnij koncepcję pracy rytmicznej uprawiania pracy głębokiej.
+Codziennie o tej samej porze, w konkretnym miejscu pracuję przez określoną ilość czasu. Pozwala na spędzanie w pracy głębokiej dość dużo czasu. Kluczowe jest znalezienia miejsca do pracy, gdzie będziemy mogli się skupić. Ważne wytworzenie ciągu, regularności.
+
+150
+Co powinien zawierać rytuał ułatwiający pracę w skupieniu?<br>* określone miejsce i czas trwania <br>* systematyzuje wysiłki (np. nie korzystam z komunikatorów, internetu)<br>* miara sprawdzająca koncentrację (np. ile linii kodu napisałem)<br>* wyraźny sygnał dla mózgu, że biorę się do pracy
+
+151
+Na czym polega koncepcja wielkiego gestu?
+Zrobiliśmy coś tak kosztownego/trudnego/itp. że musimy zacząć pracę, bo po prostu szkoda nam zmarnować tych 'przygotowań' do pracy. Przykład J.K.Rowling pisząc ostatnią część Harrego Pottera nie mogła skupić się w domu, więc wynajęła hotel za 1k/day gdzie pisała, motywacja pochodziła właśnie również ze względu na wydatki na hotel.
+
+152
+Czym różnią się mierniki progresywne od regresywnych?
+Regresywne - po wykonaniu zadania pozwalają stwierdzić jego wynik, efekty. Problematyczne, nie pozwala zarządzać procesem jak doprowadzić do zamierzonego celu.<br>Progresywne - mierzymy postępy/prace wykonane do osiągnięcie celu. Te powinno się optymalizować i na nich skupiać.<br>Dla przykładu – jeśli sednem projektu będzie zwiększenie sprzedaży, a miernikiem regresywnym będzie np. zwiększenie przychodów, to idealny miernikiem progresywnym będzie np. ilość wykonanych telefonów lub odbytych spotkań, które bezpośrednio wpłynęły na końcowy rezultat, tj. zamkniętych umów.
+
+153
+Jak należy uzupełniać zapasy siły woli?
+Eksperyment jedna grupa spacerowała na łonie natury, a druga po mieście, okazało się, że nawet w czasie trudniejszych warunków (mrozów) ta pierwsza grupa miała lepsze wyniki produktywności, wnioski najlepiej uzupełniać siłę woli poprzez czynności, które umiarkowanie pobudzają naszą uwagę:<br>* bieganie<br>* słuchanie muzyki<br>* lekka rozmowa z przyjacielem<br>* lekka nie zajmująca praca manualna, np. gotowanie
+
+154
+Co powinien zawierać rytuał kończenia dnia.
+Zestaw czynności sygnalizujący mózgowi, że można przestać myśleć o pracy. Powinien pozwalać na upewnienie się, że: <br>1) wszystko co było do zrobienia jest zrobione,<br>2) lub istnieje plan dokończenia tego w.p.p. (Consider it done).
+
+155
+Na czym polega uzyskiwanie skupienia poprzez sprinty?
+- wyznaczenie sobie celów na najbliższą godzinę,<br>- zapisanie tych celów, by stały się realnym zobowiązaniem,<br>- “praca na maksa, bez przerw na kawę”<br>- po każdym sprincie sesja nudy, związana z opieraniem się przez “odmóżdżaczami”
+
+156
+Co to jest medytacja produktywna?
+- koncentracja na spacerach,<br>- unikanie uciekania myślami do rzeczy mało istotnych,<br>- unikanie potwierdzania tego, co już się wie.
+
+157
+Co to jest kryterium jakiejkolwiek korzyści i jakie są z nim problemy?
+Kryterium jakiejkolwiek korzyści polega na tym, że jeśli coś przynosi nam jakąś korzyść, to to robimy; problem jest taki, że nie priorytetyzujemy wówczas tego, co ważniejsze, używając racjonalnej kalkulacji.
+
+158
+Jak optymalizować korespondencję mailową?
+filtr wiadomości u nadawcy - poinformowanie całego świata, że dużą część maili ignoruję:<br>- przekierowanie maili w jakiejś sprawie na kogoś innego,<br>- “odpowiem tylko na interesujące maile niekolidujące z moim kalendarzem”,<br>- nałożenie obowiązków na piszącego maila (FAQ)<br>treściwe maile - pisząc maile informuję, jak załatwić sprawę.<br>zasady odpowiadania - nie odpowiadam na mało ważne maile, jeśli:<br>- są wieloznaczne i trudno się do nich odnieść,<br>- nie zawierają spraw i propozycji, którymi jestem zainteresowany,<br>- nieodpisanie nie niesie żadnych negatywnych konsekwencji.
+
